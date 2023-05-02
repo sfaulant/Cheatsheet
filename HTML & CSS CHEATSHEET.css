@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    background-color: aqua;
+    position: fixed;
+    top: 0px;
+    margin-top: 0%;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: Verdana, serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: rgba(100, 40, 100,);
+    z-index: 1;
+}
+
+main {
+    position: relative;
+    top: 110px;
+}
+
+h2 {
+font-family: Garamond;
+font-style: italic;
+font-size: 40px;
+}
+
+.css-colors-title-box {
+    background-image: url('Foto/css colors 3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    opacity: 0.4;
+}
+
+.css-colors-title {
+    font-family: 'Indie Flower';
+    color: black;
+    font-size: 100px;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0%;
+}
+
+p {
+    font-family: Garamond;
+}
+
+.hex-title {
+    font-size: 30px;
+}
+
+.hex-colors {
+    border: 1px solid rgb(126, 120, 120);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.hex-paragraph {
+    margin-bottom: 40px;
+}
+
+.hex-black-white {
+    margin-bottom: 30px;
+}
+
+.hex-colors#white {
+    background-color: #fff;
+}
+
+.hex-colors#black {
+    background-color: #000;
+}
+
+.hex-color-box {
+    width: 100px;
+    height: 150px;
+    text-align: center;
+    display: inline-block;
+}
+
+.hex-color-box p {
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+}
+
+.hex-color-names {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.hex-colors#b21535b {
+    background-color: #21535b;
+}
+
+.hex-colors#b899ad6 {
+    background-color: #899ad6;
+}
+
+.hex-colors#ba3b3e1 {
+    background-color: #a3b3e1;
+}
+
+.hex-colors#b39a78e {
+    background-color: #39a78e;
+}
+
+.hex-colors#b363d55 {
+    background-color: #363d55;
+}
+
+.hex-colors#b0014a8{
+    background-color: #0014a8;
+}
+
+.hex-colors#b6983ce {
+    background-color: #6983ce;
+}
+
+.hex-colors#b3b7877{
+    background-color: #3b7877;
+}
+
+.hex-colors#babbfb6 {
+    background-color: #abbfb6;
+}
+
+.hex-colors#b26424b {
+    background-color: #26424b;
+}
+
+.hex-colors#rd30000 {
+    background-color: #d30000;
+}
+
+.hex-colors#red2939 {
+    background-color: #ed2939;
+}
+
+.hex-colors#r800000 {
+    background-color: #800000;
+}
+
+.hex-colors#rff2400 {
+    background-color: #ff2400;
+}
+
+.hex-colors#rc21807 {
+    background-color: #c21807;
+}
+
+.hex-colors#rff0800 {
+    background-color: #ff0800;
+}
+
+.hex-colors#r7c0a08 {
+    background-color: #7c0a08;
+}
+
+.hex-colors#re3242b {
+    background-color: #e3242b;
+}
+
+.hex-colors#rba110c {
+    background-color: #ba110c;
+}
+
+.hex-colors#r60100b {
+    background-color: #60100b;
+}
+
+.hex-colors#g4caf50 {
+    background-color: #4caf50;
+}
+
+.hex-colors#g449e48 {
+    background-color: #449e48;
+}
+
+.hex-colors#g3d8c40 {
+    background-color: #3d8c40;
+}
+
+.hex-colors#g357a38 {
+    background-color: #357a38;
+}
+
+.hex-colors#g2e6930 {
+    background-color: #2e6930;
+}
+
+.hex-colors#g265828 {
+    background-color: #265828;
+}
+
+.hex-colors#g1e4620 {
+    background-color: #1e4620;
+}
+
+.hex-colors#g173518 {
+    background-color: #173518;
+}
+
+.hex-colors#g0f2310 {
+    background-color: #0f2310;
+}
+
+.hex-colors#g081108 {
+    background-color: #081108;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, serif;
+    font-weight: 400;
+}
