@@ -25,6 +25,7 @@ h1 {
 main {
     position: relative;
     top: 110px;
+    margin-bottom: 150px;
 }
 
 h2 {
@@ -44,17 +45,68 @@ footer {
     font-weight: 400;
 }
 
-.left-commit-commands {
-    display: inline-block;
-    border: 1px solid black;
-    width: 40%;
-    font-size: 25px;
-    font-weight: 700;
+.grid {
+    height: auto;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1 fr); 
+    grid-template-areas: "comand arrow explain"
+                        "comand arrow explain";
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
-.right-commit-commands {
-    display: inline-block;
-    border: 1px solid black;
-    width: 40%;
-    font-size: 25px;
+p {
+    font-size: 20px;
 }
+
+.comand {
+grid-area: comand;
+border: 2px solid gray;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+width: 450px;
+background-color: white;
+text-align: center;
+}
+
+.comand p {
+border-bottom: 1px solid gray;
+padding: 20px;
+margin: 0%;
+}
+
+.arrow {
+    grid-area: arrow;
+    width: 350px;
+    height: 150px;
+}
+
+.arrow img {
+    grid-area: arrow;
+    width: 350px;
+    height: 150px;
+}
+
+.explain {
+grid-area: explain;
+border: 2px solid gray;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+margin-right: 50px;
+background-color: white;
+text-align: center;
+}
+
+.explain p {
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    margin: 0%;
+    }
+
+    .start {
+        font-weight: 900;
+    }
